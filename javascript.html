@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div id="banner">
+    <div class="bannerinfo">
+
+    </div>
+    <div class="btns">
+
+    </div>
+</div>
+
+
+    <script>
+        const proinfo = [
+          {
+            proNM : "상품이름",
+            proPrice : "1000원",
+            proLink : "pro1.html",
+            proClass : ['pr-0', 'col-6']
+          },
+          {
+            proNM : "신상품",
+            proPrice : "15000원",
+            proLink : "pro1.html",
+            proClass : ['pl-0', 'col-4']
+          },
+          {
+            proNM : "베스트상품",
+            proPrice : "30000원",
+            proLink : "pro1.html",
+            proClass : ['pt-0', 'col-12', 'active']
+          }
+        ];
+//btn 클래스 아이들을 모다 줄을 세워 복수 어레이화 하므로 번호로 호출해야 함.
+        var btn = '';
+               
+        for(let i in proinfo){
+            btn += `<button>${proinfo[i].proNM}</button>`;
+          }
+    document.getElementsByClassName('btns').item(0).innerHTML = btn;
+    bannerChg(0);
+    document.querySelector('.btns button:nth-child(1)').addEventListener('click', function(){
+        bannerChg(0);
+    })
+    document.querySelector('.btns button:nth-child(2)').addEventListener('click', function(){
+        bannerChg(1);
+    })
+    document.querySelector('.btns button:nth-child(3)').addEventListener('click', function(){
+        bannerChg(2);
+    })
+
+    function bannerChg(num){
+        var bannerinfo = `<h2>${proinfo[num].proNM}</h2>
+                        <p>${proinfor[num].proPrice}</p>
+                        `;
+        document.getElementsByClassName('bannerinfo').item(0).innerHTML = bannerinfo;
+    }
+   
+    // function getElementIndex(element, range) {
+    //     if (!!range) return [].indexOf.call(element, range);
+    //     return [].indexOf.call(element.parentNode.children, element);
+    // }
+
+
+    </script>
+
+</body>
+</html>
+

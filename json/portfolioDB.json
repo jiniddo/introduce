@@ -1,0 +1,51 @@
+[
+    {
+        "titileImg" : "/javascript/portfolio/big/ad/1.jpg",
+        "thumbImg": [
+            "/javascript/portfolio/thumb/ad/1.jpg",
+            "/javascript/portfolio/thumb/ad/2.jpg",
+            "/javascript/portfolio/thumb/ad/3.jpg"],
+        "descriptionH2" : "봄날의 웹 포트폴리오",
+        "description" : "사용성 개선을 위한 UI작업(반응형)으로 제작하였으며 유지보수가 원활하도록 JSON DB화 하였다<br> #bootstrap #sacc #javascript #jQuery #Adobe Illustrator/photoshap 깃에 있는 프로그램 사용 퍼센트",
+        "pLinkinfo" : [
+            { "linkAdd":"//pindrop.cafe24.com",
+              "Linkname":"웹 포트폴리오"},
+            { "linkAdd":"//github.com/jiniddo",
+              "Linkname":"깃 소스 보기"}
+        ]
+    },
+    {
+        "titileImg" : "/javascript/portfolio/big/ad/2.jpg",
+        "thumbImg": [
+            "/javascript/portfolio/thumb/ad/4.jpg",
+            "/javascript/portfolio/thumb/ad/5.jpg",
+            "/javascript/portfolio/thumb/ad/6.jpg"],
+        "descriptionH2" : "봄날의 리엑트 포트폴리오",
+        "description" : "리엑트 리엑트 어떻게 만들면 잘 만드는 걸까? #React-bootstrap #sacc #javascript #jQuery #Adobe Illustrator/photoshap 깃에 있는 프로그램 사용 퍼센트",
+       
+        "pLinkinfo" : [
+            { "linkAdd":"//pindrop.cafe24.com",
+              "Linkname":"구글ppt"},
+            { "linkAdd":"//github.com/jiniddo",
+              "pLink":"깃 허브"},
+            { "linkAdd":"//github.com/jiniddo",
+              "pLink":"노션"}
+        ]
+    },
+    {
+        "titileImg" : "/javascript/portfolio/big/ad/3.jpg",
+        "thumbImg": [
+            "/javascript/portfolio/thumb/ad/7.jpg",
+            "/javascript/portfolio/thumb/ad/8.jpg",
+            "/javascript/portfolio/thumb/ad/9.jpg"],
+        "descriptionH2" : "봄날의 포트폴리오 기획서",
+        "description" : "기획서는 피그마로 만들었으며 해당 이미지는 사이트에 바로 적용할 수 있는 상태로 가공하였다. 배너의 경우 모바일에서도 인스타에서도 바로 쓸수 있도록 1024사이즈로 제작하였다.",
+                        
+        "pLinkinfo" : [
+            { "linkAdd":"//pindrop.cafe24.com",
+              "Linkname":"피그마주소"}
+
+    ]
+
+    }
+]
